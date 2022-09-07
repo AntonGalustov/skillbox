@@ -1,10 +1,12 @@
 print('Hello world')
-summ = 0
-while True:
+summ = 10
+while summ < 200:
     n = int(input('введите число '))
-    num = n % 10 
-    if num == 0:
+    if n % 10 == 0: 
       summ += n
+    else:
+      break
+      print('число неверное. попробуйте снова.')
 print('число',summ)
 
     
