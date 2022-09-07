@@ -1,2 +1,4 @@
-apartment = int(input('введите номер квартиры: '))
-print('номер вашего дома',apartment)
+
+
+street = input('введите название улицы: ')
+print('название вашей улицы',street)
