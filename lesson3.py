@@ -1,4 +1,4 @@
-print('Hello world')
+
 summ = 10
 while summ < 100:
     n = int(input('введите число '))
