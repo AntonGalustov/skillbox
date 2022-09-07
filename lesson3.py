@@ -1,6 +1,6 @@
 print('Hello world')
 summ = 10
-while summ < 200:
+while summ < 100:
     n = int(input('введите число '))
     if n % 10 == 0: 
       summ += n
